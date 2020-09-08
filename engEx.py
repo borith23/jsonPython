@@ -11,3 +11,9 @@ if (x):
   print("Yes, there is at least one match!")
 else:
   print("No match")
+
+
+txt = "The rain in Spain"
+y = re.search("\s", txt)
+
+print("The first white-space character is located in position:", y.start())
